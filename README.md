@@ -56,14 +56,17 @@ to another member of that club.
 
 ## Technologies Used:
 
-### Microsoft Visual Studio : It is an Integrated Development Environment from Microsoft.
+### Microsoft Visual Studio : 
+It is an Integrated Development Environment from Microsoft.
 It is used to develop web applications, computer programs, web services etc. We used
 it to develop our website (using ASP.NET).
 
-#### ASP.NET : It is the free cross platform open source framework for building web apps
+#### ASP.NET : 
+It is the free cross platform open source framework for building web apps
 and services with .NET and C#. Our project was built using ASP.NET. Webpages were
 built using HTML, CSS. We used C# for logical code.
 
-#### SQL Server Express LocalDB: It is the light weight version of SQL Server Express
+#### SQL Server Express LocalDB: 
+It is the light weight version of SQL Server Express
 Database engine that is targeted for program development. It starts on demand and
 runs in user mode. 
