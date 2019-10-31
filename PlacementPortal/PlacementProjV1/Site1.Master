@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="PlacementProjV1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style= "background-color:"#f9ba6d";color:white;padding:20px;">
+    <form id="form1" runat="server">
+        <div>
+            <p style ="color: #ab3d29; display: block; margin-top: 1em; margin-bottom: 1em;  margin-left: 0; margin-right: 0; "> &nbsp; 
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/Logo.jpg" />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image2" runat="server" Height="72px" ImageUrl="~/Images/Manipal_Tech_new_logo.png" style="margin-top: 13px" Width="108px" />
+            </p>
+            <p style ="color: #ab3d29; display: block; margin-top: 1em; margin-bottom: 1em;  margin-left: 0; margin-right: 0; "> Manipal Institute of Technology <br> 
+                Office of Industrial Liaison, <br> Placement & Practice School </p>
+            <p style ="color: #ab3d29; display: block; margin-top: 1em; margin-bottom: 1em;  margin-left: 0; margin-right: 0; "> &nbsp;</p>
+            <h1> &nbsp;</h1>
+            <h1> 
+                <asp:Label ID="Label1" runat="server"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               
+            </h1>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+         <br />
+        <br />
+        <br />
+        <br />
+         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Logout" />
+        <p>
+
+            Contact: 
+Office of Industrial Liason, Placement and Practice School <br>
+Manipal Institute of Technology <br>
+Manipal Academy of Higher Education <br> 
+Phone: 0820-2925562 
+ </p>
+
+    </form>
+</body>
+</html>
