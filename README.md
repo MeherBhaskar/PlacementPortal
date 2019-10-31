@@ -8,15 +8,15 @@ without first logging in will lead to redirection to the corresponding login pag
 
 ## It is basically divided into three parts namely –
 
-### Student Portal
+### 1) Student Portal
 
-### Company Portal
+### 2) Company Portal
 
-### Admin Portal
+### 3) Admin Portal
 
 ### Admin Portal is further sub divided into
-#### Portal for Master Admin i.e. the placement authorities of the college
-#### Portal for club presidents
+#### i) Portal for Master Admin i.e. the placement authorities of the college
+#### ii) Portal for club presidents
 
 
 ## MODULES IMPLEMENTED:
